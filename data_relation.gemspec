@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "data_relation"
   gem.require_paths = ["lib"]
   gem.version       = DataRelation::VERSION
+
+  gem.add_development_dependency "rspec"
 end
